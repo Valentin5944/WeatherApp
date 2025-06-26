@@ -14,7 +14,7 @@
 
 <img src='/static/icon/screen.png'>
 
-<h2>Зміст:</h2>
+<h2 id= 'list'>Зміст:</h2>
 <ol>
     <li>
         <a href='#all-modules'>Модулі проєкту</a>.
@@ -128,6 +128,9 @@ Main.py -> запуск
     modules.app.mainloop()
 <hr>
 <h3 id='base-mechanics'>Основні механіки проєкту</h3>
+<a href='#list'>
+    <img src='/static/icon/up.png'>
+</a>
 
 <h4>1. Збір даних:</h4>
 
