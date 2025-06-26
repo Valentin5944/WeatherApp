@@ -1,6 +1,16 @@
+<style>
+    .text{
+        text-align:  justify;
+    }
+    .img{
+        border-radius: 10px;
+    }
+</style>
+
+
 <h1>WEATHER APPLICATION</h1>
 
-<p style='text-align:  justify;'> 
+<p class= 'text'> 
     <span style='margin-left: 40px;'>Цей</span> 
     проєкт розроблено з метою ознайомлення із роботою 
     <a href='https://developer.mozilla.org/en-US/docs/Glossary/API'>API</a>, 
@@ -12,7 +22,21 @@
     <a href='https://customtkinter.tomschimansky.com/'>Custotkinter</a>.
 </p>
 
-<img src='/static/icon/screen.png'>
+```mermaid
+    graph TD;
+    WEATHERAPP-->modules/;
+    WEATHERAPP-->images/;
+    WEATHERAPP-->static/;
+    WEATHERAPP-->.gitignore;
+    WEATHERAPP-->main.py;
+    WEATHERAPP-->requirements.txt;
+    WEATHERAPP-->README.md;
+    modules/-->gui/;
+    modules/-->init.py;
+    modules/-->read_json.py;
+
+```
+<img class='img' src='/static/icon/screen.png'>
 
 <h2 id= 'list'>Зміст:</h2>
 <ol>
