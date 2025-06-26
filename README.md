@@ -1,16 +1,6 @@
-<style>
-    .text{
-        text-align:  justify;
-    }
-    .img{
-        border-radius: 10px;
-    }
-</style>
-
-
 <h1>WEATHER APPLICATION</h1>
 
-<p class= 'text'> 
+<p style='text-align:  justify;'> 
     <span style='margin-left: 40px;'>Цей</span> 
     проєкт розроблено з метою ознайомлення із роботою 
     <a href='https://developer.mozilla.org/en-US/docs/Glossary/API'>API</a>, 
