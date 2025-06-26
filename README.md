@@ -129,7 +129,8 @@ Main.py -> запуск
 <hr>
 <h3 id='base-mechanics'>Основні механіки проєкту</h3>
 <a href='#list'>
-    <img  style= 'width: 50px; height: 50px;' src='/static/icon/up.png'>
+повернутись до змісту
+    <img  style= 'width: 25px; height: 25px;' src='/static/icon/up.png'> 
 </a>
 
 <h4>1. Збір даних:</h4>
